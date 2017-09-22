@@ -2,10 +2,10 @@
 
 If SFML is not installed on your system:
 
- * Extract the SFML archive you want in the `librairies` folder (precompiled or sources).
+ * Extract the SFML archive you want in the `libraries` folder (precompiled or sources).
 Note that there can be some issues with the precompiled versions.
 Use the archive `SFML-2.4.2-precompiled-ubuntu.tar.gz` for the computers in the C411 room.
- * If you want to compile SFML: `make sfml` (in this directory). You need these dependencies:
+ * If you want to compile SFML: `make sfml` (in this directory, not in the sfml directory). You need these dependencies:
 
 ```
 freetype
