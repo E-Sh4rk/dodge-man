@@ -2,9 +2,9 @@
 
 If SFML is not installed on your system:
 
- * Extract the SFML archive you want in the `libraries` folder (precompiled or sources).
-Note that there can be some issues with the precompiled versions.
-Use the archive `SFML-2.4.2-precompiled-ubuntu.tar.gz` for the computers in the C411 room.
+ * Extract a version of SFML compatible with your system in the `libraries` folder (precompiled or sources).
+By default, it should be extracted in a directory `SFML-2.4.2`.
+Extract the archive `SFML-2.4.2-precompiled-ubuntu.tar.gz` for the computers in the C411 room.
  * If you want to compile SFML: `make sfml` (in this directory, not in the sfml directory). You need these dependencies:
 
 ```
@@ -26,6 +26,11 @@ openal
 pthread
 ```
 
+## Doxygen
+
+For UNIX systems, Doxygen is already locally installed in `tools/doxygen-1.8.13`.
+If this version is not compatible with your OS, please replace it with a compatible version.
+
 ## Dodge man
 
 To compile: `make all`
@@ -34,4 +39,6 @@ To run: `make run`
 
 To clean: `make clean`
 
-You can specify a different path for sfml with the parameter `SFML=path_to_sfml`.
+To generate the doc: `make doc`
+
+You can specify a different path for sfml or doxygen with the parameters  `SFML=path_to_sfml DOXYGEN=path_to_doxygen`.
