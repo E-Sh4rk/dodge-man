@@ -33,12 +33,14 @@ If this version is not compatible with your OS, please replace it with a compati
 
 ## Dodge man
 
-To compile: `make all`
+To compile and generate the doc: `make all`
+
+To compile: `make dodge`
+
+To generate the doc: `make doc`
 
 To run: `make run`
 
 To clean: `make clean`
-
-To generate the doc: `make doc`
 
 You can specify a different path for sfml or doxygen with the parameters  `SFML=path_to_sfml DOXYGEN=path_to_doxygen`.

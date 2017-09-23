@@ -4,7 +4,7 @@ SFML=./libraries/SFML-2.4.2
 DOXYGEN=./tools/doxygen-1.8.13
 SRC=./src
 
-all: dodge
+all: dodge doc
     
 dodge: main.o
 	$(CC) $(CFLAGS) main.o -o dodge -L $(SFML)/lib -lsfml-graphics -lsfml-window -lsfml-system
