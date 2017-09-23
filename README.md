@@ -33,11 +33,15 @@ If this version is not compatible with your OS, please replace it with a compati
 
 ## Dodge man
 
-To compile and generate the doc: `make all`
+To compile everything and generate the doc: `make all`
 
-To compile: `make dodge`
+To compile the tests: `make tests`
+
+To compile the project: `make dodge`
 
 To generate the doc: `make doc`
+
+To test: `make test`
 
 To run: `make run`
 
