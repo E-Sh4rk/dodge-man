@@ -3,6 +3,11 @@ language: cpp
 
 os: linux
 
-install: cd libraries; unzip -q SFML-2.4.2-sources.zip; cd ..; make sfml
+addons:
+  apt:
+    packages:
+    - libsfml-dev
+
+install: true
 
 script: make dodge && make test
