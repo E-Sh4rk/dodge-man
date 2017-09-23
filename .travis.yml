@@ -1,0 +1,6 @@
+
+language: cpp
+
+install: cd libraries; tar -xzf SFML-2.4.2-precompiled-ubuntu.tar.gz; cd ..
+
+script: make dodge && make test
