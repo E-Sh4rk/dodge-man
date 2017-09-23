@@ -1,13 +1,10 @@
 
 language: cpp
-
 os: linux
-
 addons:
   apt:
     packages:
     - libsfml-dev
 
 install: true
-
 script: make dodge && make test

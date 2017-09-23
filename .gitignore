@@ -34,6 +34,7 @@
 
 # Specific
 dodge
+tests
 libraries/SFML-2.4.2/
 dodge-man-doc
 

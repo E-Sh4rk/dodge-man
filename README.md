@@ -1,6 +1,8 @@
 ## SFML
 
-If SFML is not installed on your system:
+You have to install SFML on your system: `sudo apt-get install libsfml-dev`.
+
+If you don't want to install SFML on your system, or if you have not root permissions:
 
  * Extract a version of SFML compatible with your system in the `libraries` folder (precompiled or sources).
 By default, it should be extracted in a directory `SFML-2.4.2`.
